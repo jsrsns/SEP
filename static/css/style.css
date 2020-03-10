@@ -58,7 +58,7 @@ nav a.logo {
     font-size: 3rem;
     line-height: 1rem;
     color: transparent;
-    background-image: url("../images/logo.svg");
+    background-image: url("../images/Logo.svg");
     background-size: 8rem;
     background-repeat: no-repeat;
     background-position: center 60%;
@@ -164,7 +164,7 @@ h1#logotype {
     padding: 0;
     color: transparent;
     position: relative;
-    background-image: url("../images/logo.svg");
+    background-image: url("../images/Logo.svg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
