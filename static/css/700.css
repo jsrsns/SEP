@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Surt';
+    src:    url('../fonts/Surt-SemiBold.woff2') format('woff2'),
+            url('../fonts/Surt-SemiBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-dsiplay: auto;
+}

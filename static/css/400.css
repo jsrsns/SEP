@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Surt';
+    src:    url('../fonts/Surt-Regular.woff2') format('woff2'),
+            url('../fonts/Surt-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-dsiplay: auto;
+}

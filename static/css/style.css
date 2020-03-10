@@ -1,0 +1,242 @@
+html {
+    font-size: 3.8px;
+    margin: 0;
+    padding: 0;
+}
+
+/* start auto-resize */
+@media screen and (min-width: 380px) and (min-height: 380px)
+{
+    html { font-size: 1vmin;}
+}
+
+/* stop auto-resize */
+@media screen and (min-width: 1000px) and (min-height: 1000px)
+{
+    html { font-size: 10px; }
+}
+
+body {
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-family: "Surt", Helvetica, sans-serif;
+}
+
+a { color: inherit; }
+
+h2,
+p {
+    max-width: 80.6rem;
+    margin: 5rem auto;
+    padding: 0 5rem;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 0.4em 0.3em 0.3em 0.3em;
+    align-self: start;
+    grid-row: 1;
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    justify-self: stretch;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+nav a.logo {
+    width: 8rem;
+    height: 8rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    line-height: 1rem;
+    color: transparent;
+    background-image: url("../images/logo.svg");
+    background-size: 8rem;
+    background-repeat: no-repeat;
+    background-position: center 60%;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 1.4em;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0.5em;
+}
+
+nav ul li a { text-decoration: none; }
+
+nav ul li a:hover { text-decoration: underline; }
+
+header {
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+
+#homepage header {
+    padding-bottom: 10rem;
+}
+
+footer {
+    margin: 0 auto;
+    font-size: 2rem;
+    padding: 5rem 0 0 0;
+    position: relative;
+    overflow: hidden;
+    min-height: calc(80.6rem * 1.0476);
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+footer:before {
+    content: "";
+    display: block;
+    height: cacl(80.6rem * 1.0476);
+    width: 80.6rem;
+    position: absolute;
+    background-image: url("");
+    background-size: 80.6rem;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    left: calc(50% -16rem);
+}
+
+footer ul {
+    margin: 0;
+    list-style: none;
+    padding: 2rem 0 2rem 12rem !important;
+    background-image: url("");
+    background-size: 10rem;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    position: absolute;
+    left: calc(50% - 40rem);
+    top: 66rem;
+    width: 80.6rem;
+}
+
+footer li { margin: 1rem 0; }
+
+hr {
+    margin: 8rem auto 6rem auto;
+    width: 16rem;
+    border-style: none;
+    border-bottom-width: 0.5rem;
+    border-bottom-style: solid;
+}
+
+p {
+    font-size: 3rem;
+    line-height: 3.8rem;
+}
+
+h2,
+p>strong {
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 4.76rem;
+    position: relative;
+}
+
+h1#logotype {
+    height: 50rem;
+    font-size: 0;
+    line-height: 0;
+    margin: 5rem auto 0 auto;
+    padding: 0;
+    color: transparent;
+    position: relative;
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+h1#logotype:before,
+h1#logotype:after,
+nav.top a:before,
+nav.bottom a:before {
+    font-family: "Surt", Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    position: absolute;
+    width: 1em;
+    text-align: center;
+    opacity: 0.5;
+    user-select: none;
+}
+
+nav.top a,
+nav.bottom a { position: relative; }
+
+nav.top a:before,
+nav.bottom a:before {
+    color: black;
+    font-size: 0.85rem;
+    top: 0.rem;
+    left: 15rem;
+}
+
+section { padding: 5rem 0; }
+
+h2#lit { padding-bottom: 6rem; }
+
+#about,
+#info,
+#rights,
+#recc,
+#contact,
+#events,
+#lit {
+    position: relative;
+    margin-top: 0;
+    padding-top: 6rem;
+}
+
+#lit { margin-bottom: -5rem; }
+
+section ul {
+    margin: 5rem auto;
+    font-size: 2rem;
+    list-style: none;
+    padding: 0 5rem;
+    top: 66rem;
+    width: 80.6rem;
+}
+
+section ul li {
+    margin: 2rem 0;
+}
+
+image {
+    padding: 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin: 8rem;
+}
+
+image img {
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+
+.lang-nl { display: none; }
